@@ -2,7 +2,7 @@ import flask
 from flask import request as request
 import pandas as pd
 
-import analytics.credit_default
+import predictionws.credit_default
 import predictionws.db as db
 import predictionws.exceptions as exceptions
 import predictionws.utils as utils
@@ -46,7 +46,7 @@ def apply_model(model_id, data):
         # Queried model not found
         flask.abort(404)
 
-    predictor = analytics.credit_default.Predictor(model_file=model_file)
+    predictor = predictionws.credit_default.Predictor(model_file=model_file)
     return predictor.predict(data=data)
 
 

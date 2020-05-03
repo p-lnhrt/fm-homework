@@ -10,3 +10,9 @@ class AbstractModelDataBase(abc.ABC):
     @abc.abstractmethod
     def list_models(self):
         pass
+
+class AbstractPredictor(abc.ABC):
+
+    @abc.abstractmethod
+    def predict(self, data):
+        pass

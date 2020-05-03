@@ -1,4 +1,4 @@
-import analytics.bases as bases
+import predictionws.bases as bases
 
 
 class Predictor(bases.AbstractPredictor):
