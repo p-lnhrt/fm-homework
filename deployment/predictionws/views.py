@@ -2,10 +2,9 @@ import flask
 from flask import request as request
 import pandas as pd
 
-import analytics.factories
+import analytics.credit_default
 import predictionws.db as db
 import predictionws.exceptions as exceptions
-import predictionws.inference as inference
 import predictionws.utils as utils
 
 model_bp = flask.Blueprint(name='model', import_name=__name__)
@@ -41,14 +40,14 @@ def return_outputs(model_id):
 
 
 def apply_model(model_id, data):
-    model_file = utils.build_model_from_id(db_client=db.get_db(), model_id=model_id)
-    predictor = inference.Predictor(pipeline_factory=analytics.factories.CreditDefaultFactory(), model_file=model_file)
     try:
-        predictions = predictor.predict(data=data)
+        model_file = utils.build_model_from_id(db_client=db.get_db(), model_id=model_id)
     except exceptions.ModelNotFoundException:
         # Queried model not found
         flask.abort(404)
-    return predictions
+
+    predictor = analytics.credit_default.Predictor(model_file=model_file)
+    return predictor.predict(data=data)
 
 
 def make_public_model(model_id):

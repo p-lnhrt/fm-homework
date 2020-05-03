@@ -1,16 +1,6 @@
 import analytics.bases as bases
 
 
-class DataValidator(bases.AbstractTransformer):
-    def transform(self, data):
-        return data
-
-
-class DataPreprocessor(bases.AbstractTransformer):
-    def transform(self, data):
-        return data
-
-
 class Predictor(bases.AbstractPredictor):
     def __init__(self, model_file):
         self._model = model_file

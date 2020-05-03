@@ -18,9 +18,6 @@ def create_app():
     app.register_blueprint(blueprint=views.model_bp)
     app.register_blueprint(blueprint=views.prediction_bp)
 
-    import predictionws.errors as errors
-    app.register_blueprint(blueprint=errors.errors_bp)
-
     import predictionws.db as db
     app.teardown_appcontext(db.teardown_db)
 

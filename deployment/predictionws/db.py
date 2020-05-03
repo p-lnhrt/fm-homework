@@ -3,6 +3,7 @@ import re
 
 import flask
 
+import predictionws.bases as bases
 
 class TrainedModel:
     def __init__(self, path, id_):
@@ -10,7 +11,7 @@ class TrainedModel:
         self.id = id_
 
 
-class ModelStore:
+class ModelStore(bases.AbstractModelDataBase):
     def __init__(self):
         self._wh_path = flask.current_app.config.get('MODEL_WAREHOUSE')
         regex = re.compile(r'\w+')
