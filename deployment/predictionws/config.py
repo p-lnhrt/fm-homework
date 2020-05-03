@@ -1,0 +1,2 @@
+LOGGING_LEVEL = 'INFO'
+MODEL_WAREHOUSE = './models'

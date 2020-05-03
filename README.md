@@ -130,7 +130,7 @@ format (PDF, HTML, etc.).
 be a must-have but requires a cross-validation procedure.  
 * The current choice of metrics depends on our problem.
 * Refactoring of the report generation and export into a dedicated object. 
-
+curl -i -H "Content-Type: application/json" -X POST --data '{"checking_balance":"unknown","savings_balance":"unknown","installment_rate":4,"personal_status":"single male","residence_history":1,"installment_plan":"none","existing_credits":1,"dependents":1}' http://localhost:5000/inference/AA1
 ### Common possible improvements 
 All scripts would in our view greatly benefit from the following improvement:
 * Addition of CLI argument validation,
@@ -143,7 +143,7 @@ All scripts would in our view greatly benefit from the following improvement:
 
 
 
+< 0 DM,< 100 DM,4,single male,2,stores,1,2,2
 
-
-
-                            
+curl -i -H "Content-Type: application/json" -X POST --data '{"checking_balance":"unknown","savings_balance":"unknown","installment_rate":4,"personal_status":"single male","residence_history":1,"installment_plan":"none","existing_credits":1,"dependents":1}'  http://localhost:5000/output/CDEFAULT_RF_20200503120903
+curl -i -H "Content-Type: application/json" -X POST --data '{"data":[{"checking_balance":"unknown","savings_balance":"unknown","installment_rate":4,"personal_status":"single male","residence_history":1,"installment_plan":"none","existing_credits":1,"dependents":1},{"checking_balance":"< 0 DM","savings_balance":"< 100 DM","installment_rate":4,"personal_status":"single male","residence_history":2,"installment_plan":"stores","existing_credits":1,"dependents":2}]}'  http://localhost:5000/outputs/CDEFAULT_RF_20200503120903
