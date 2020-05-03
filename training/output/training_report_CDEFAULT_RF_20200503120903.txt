@@ -1,0 +1,16 @@
+TRAINING REPORT
+Model: CDEFAULT_RF_20200503120903
+
+Training set metrics
+----------------------
+Precision: 0.466
+Recall: 0.829
+F1-score: 0.597
+PR curve AUC: 0.529
+
+Test set metrics
+----------------------
+Precision: 0.430
+Recall: 0.756
+F1-score: 0.548
+PR curve AUC: 0.475
