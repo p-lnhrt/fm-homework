@@ -1,0 +1,1001 @@
+checking_balance,savings_balance,installment_rate,personal_status,residence_history,installment_plan,existing_credits,dependents,default
+< 0 DM,unknown,4,single male,4,none,2,1,0
+1 - 200 DM,< 100 DM,2,female,2,none,1,1,1
+unknown,< 100 DM,2,single male,3,none,1,2,0
+< 0 DM,< 100 DM,2,single male,4,none,1,2,0
+< 0 DM,< 100 DM,3,single male,4,none,2,2,1
+unknown,unknown,2,single male,4,none,1,2,0
+unknown,501 - 1000 DM,3,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,2,none,1,1,0
+unknown,> 1000 DM,2,divorced male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,married male,2,none,2,1,1
+1 - 200 DM,< 100 DM,3,female,1,none,1,1,1
+< 0 DM,< 100 DM,3,female,4,none,1,1,1
+1 - 200 DM,< 100 DM,1,female,1,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,none,2,1,1
+< 0 DM,< 100 DM,2,female,4,none,1,1,0
+< 0 DM,101 - 500 DM,4,female,2,none,1,1,1
+unknown,unknown,4,single male,4,none,2,1,0
+< 0 DM,unknown,2,single male,3,bank,3,1,0
+1 - 200 DM,< 100 DM,4,female,2,none,1,1,1
+unknown,501 - 1000 DM,3,single male,2,none,1,2,0
+unknown,< 100 DM,4,single male,4,none,3,1,0
+< 0 DM,501 - 1000 DM,2,single male,3,none,1,2,0
+< 0 DM,< 100 DM,1,single male,3,none,2,2,0
+1 - 200 DM,101 - 500 DM,3,single male,4,none,1,1,0
+unknown,unknown,2,married male,1,none,2,1,0
+< 0 DM,< 100 DM,1,single male,2,bank,1,1,0
+unknown,< 100 DM,4,married male,4,none,1,1,0
+> 200 DM,> 1000 DM,3,female,3,none,2,1,0
+1 - 200 DM,< 100 DM,3,single male,2,none,1,1,0
+< 0 DM,< 100 DM,3,single male,4,none,2,1,1
+1 - 200 DM,> 1000 DM,3,married male,3,bank,1,1,0
+< 0 DM,< 100 DM,2,single male,2,stores,1,1,0
+1 - 200 DM,101 - 500 DM,2,single male,2,none,2,1,0
+unknown,unknown,4,single male,4,none,1,1,0
+> 200 DM,< 100 DM,4,female,1,bank,1,1,0
+1 - 200 DM,< 100 DM,4,single male,2,none,2,1,1
+unknown,< 100 DM,1,single male,3,bank,1,1,0
+> 200 DM,< 100 DM,4,single male,2,stores,1,1,1
+> 200 DM,< 100 DM,2,single male,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,3,none,1,1,0
+unknown,501 - 1000 DM,4,single male,2,bank,1,1,0
+1 - 200 DM,501 - 1000 DM,3,divorced male,1,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,4,none,1,2,0
+< 0 DM,101 - 500 DM,1,married male,4,none,2,1,0
+< 0 DM,< 100 DM,4,female,4,stores,2,1,1
+unknown,< 100 DM,4,female,4,none,2,1,0
+unknown,501 - 1000 DM,4,single male,4,none,1,1,0
+< 0 DM,501 - 1000 DM,1,female,2,none,1,1,0
+unknown,< 100 DM,1,single male,4,none,2,1,0
+unknown,101 - 500 DM,4,female,2,none,1,1,0
+1 - 200 DM,unknown,4,single male,2,bank,1,1,0
+1 - 200 DM,< 100 DM,1,single male,2,none,2,1,0
+unknown,< 100 DM,3,single male,2,none,1,1,0
+unknown,unknown,2,single male,1,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,bank,2,1,1
+unknown,unknown,1,single male,2,stores,1,2,0
+1 - 200 DM,unknown,2,single male,1,none,1,1,1
+unknown,< 100 DM,2,female,2,stores,2,1,0
+> 200 DM,< 100 DM,3,female,2,none,1,1,0
+< 0 DM,< 100 DM,4,female,4,none,2,1,1
+1 - 200 DM,< 100 DM,2,married male,1,bank,1,1,0
+1 - 200 DM,unknown,4,single male,4,none,2,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,1,1,1
+1 - 200 DM,< 100 DM,2,single male,2,none,1,1,1
+unknown,< 100 DM,4,female,4,none,1,1,0
+unknown,unknown,4,single male,4,none,4,2,0
+unknown,< 100 DM,2,female,2,bank,1,1,0
+1 - 200 DM,> 1000 DM,4,married male,1,none,1,1,0
+unknown,< 100 DM,4,single male,4,stores,1,1,1
+unknown,unknown,4,female,4,none,1,1,0
+unknown,< 100 DM,1,female,2,bank,1,1,0
+unknown,unknown,4,single male,2,none,2,1,0
+< 0 DM,< 100 DM,3,single male,4,bank,2,2,0
+1 - 200 DM,< 100 DM,2,female,1,bank,2,1,0
+< 0 DM,unknown,4,single male,4,none,1,1,1
+< 0 DM,< 100 DM,4,single male,4,none,2,1,0
+< 0 DM,< 100 DM,4,single male,3,none,1,1,1
+1 - 200 DM,< 100 DM,2,single male,4,none,1,1,0
+unknown,unknown,2,single male,2,none,1,2,0
+1 - 200 DM,< 100 DM,2,married male,1,none,1,1,0
+unknown,unknown,1,female,1,none,2,1,1
+unknown,501 - 1000 DM,4,single male,3,stores,1,1,0
+unknown,101 - 500 DM,3,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,0
+< 0 DM,< 100 DM,3,single male,4,none,1,1,0
+unknown,< 100 DM,4,female,2,none,2,1,0
+1 - 200 DM,< 100 DM,4,female,1,none,2,1,0
+1 - 200 DM,101 - 500 DM,1,single male,4,none,1,2,1
+< 0 DM,101 - 500 DM,4,single male,3,none,1,2,0
+< 0 DM,< 100 DM,4,single male,3,none,2,1,1
+unknown,< 100 DM,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,3,none,1,1,0
+unknown,unknown,4,female,3,bank,1,2,1
+> 200 DM,unknown,4,single male,4,none,2,1,0
+1 - 200 DM,> 1000 DM,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,3,single male,4,none,1,1,1
+unknown,unknown,4,female,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,1,1,0
+1 - 200 DM,unknown,3,single male,4,bank,2,2,0
+unknown,101 - 500 DM,4,married male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,1,1,0
+unknown,< 100 DM,3,female,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,3,none,1,1,0
+unknown,unknown,2,married male,4,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,3,none,2,2,1
+unknown,< 100 DM,2,single male,4,bank,2,2,1
+1 - 200 DM,< 100 DM,2,single male,2,none,1,1,0
+< 0 DM,unknown,1,female,2,none,1,1,0
+1 - 200 DM,501 - 1000 DM,1,married male,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,1,divorced male,2,bank,2,2,0
+> 200 DM,< 100 DM,4,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,3,single male,3,none,1,1,0
+unknown,< 100 DM,4,female,2,stores,2,1,1
+< 0 DM,501 - 1000 DM,3,married male,1,none,1,1,0
+unknown,unknown,4,single male,1,none,1,1,0
+< 0 DM,unknown,4,female,3,none,1,1,1
+< 0 DM,unknown,2,female,3,none,2,1,0
+< 0 DM,501 - 1000 DM,1,female,4,none,2,1,1
+1 - 200 DM,501 - 1000 DM,3,divorced male,3,none,1,1,0
+< 0 DM,< 100 DM,3,female,2,none,2,1,1
+unknown,< 100 DM,4,female,2,none,2,1,0
+unknown,< 100 DM,3,single male,2,none,1,1,0
+> 200 DM,< 100 DM,4,single male,4,none,2,1,0
+1 - 200 DM,unknown,4,female,3,none,1,1,1
+< 0 DM,< 100 DM,4,single male,2,none,2,1,0
+< 0 DM,< 100 DM,4,married male,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,2,none,1,1,1
+1 - 200 DM,< 100 DM,4,single male,2,none,2,1,0
+< 0 DM,< 100 DM,3,female,2,none,2,1,1
+1 - 200 DM,unknown,1,female,2,none,1,1,0
+< 0 DM,< 100 DM,4,single male,3,stores,1,1,1
+unknown,< 100 DM,2,single male,3,bank,2,1,0
+unknown,< 100 DM,4,single male,4,bank,2,1,0
+unknown,101 - 500 DM,2,female,4,none,1,1,0
+unknown,unknown,4,female,2,none,2,1,0
+unknown,> 1000 DM,2,single male,2,none,2,1,0
+1 - 200 DM,501 - 1000 DM,4,single male,3,none,1,1,1
+1 - 200 DM,unknown,4,single male,2,bank,3,1,0
+> 200 DM,< 100 DM,2,female,2,none,1,1,0
+> 200 DM,> 1000 DM,2,married male,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,1,none,1,1,0
+< 0 DM,< 100 DM,3,single male,2,none,1,1,0
+< 0 DM,< 100 DM,2,single male,2,none,1,1,1
+unknown,< 100 DM,4,female,4,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,single male,2,none,1,1,0
+< 0 DM,< 100 DM,1,female,4,none,2,1,0
+unknown,101 - 500 DM,4,female,3,none,2,1,0
+< 0 DM,< 100 DM,3,single male,2,none,2,1,0
+unknown,> 1000 DM,4,single male,4,none,2,1,0
+unknown,101 - 500 DM,2,single male,4,bank,1,2,0
+unknown,< 100 DM,1,single male,4,none,1,1,0
+> 200 DM,< 100 DM,4,single male,1,none,1,1,0
+1 - 200 DM,> 1000 DM,2,female,4,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,2,female,4,none,1,1,1
+< 0 DM,101 - 500 DM,3,single male,4,none,2,2,0
+< 0 DM,< 100 DM,4,married male,1,bank,1,1,0
+1 - 200 DM,101 - 500 DM,2,single male,3,bank,2,1,0
+unknown,unknown,1,single male,2,none,2,2,0
+unknown,101 - 500 DM,3,single male,4,none,1,2,0
+unknown,< 100 DM,4,female,1,none,2,1,0
+unknown,501 - 1000 DM,4,single male,3,none,2,1,0
+1 - 200 DM,< 100 DM,2,single male,4,bank,1,1,0
+unknown,501 - 1000 DM,4,single male,4,none,1,1,0
+unknown,501 - 1000 DM,1,single male,2,none,1,1,0
+< 0 DM,< 100 DM,4,female,2,none,1,1,1
+1 - 200 DM,> 1000 DM,4,female,1,none,1,1,0
+unknown,< 100 DM,2,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,divorced male,4,none,2,1,1
+< 0 DM,< 100 DM,4,single male,3,none,2,2,1
+unknown,< 100 DM,4,female,1,none,1,1,0
+1 - 200 DM,< 100 DM,3,female,2,none,1,1,1
+1 - 200 DM,< 100 DM,4,single male,2,none,1,1,0
+< 0 DM,< 100 DM,2,single male,1,none,2,1,1
+unknown,unknown,4,female,1,bank,1,1,1
+< 0 DM,< 100 DM,2,divorced male,1,none,1,1,0
+< 0 DM,501 - 1000 DM,4,single male,4,none,2,1,0
+unknown,< 100 DM,4,single male,2,none,2,2,0
+< 0 DM,< 100 DM,4,single male,4,none,2,1,0
+unknown,< 100 DM,1,divorced male,1,none,2,1,1
+1 - 200 DM,< 100 DM,2,divorced male,2,stores,2,1,1
+< 0 DM,unknown,4,single male,2,none,2,2,1
+unknown,> 1000 DM,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,bank,1,2,1
+unknown,< 100 DM,4,single male,2,none,2,1,0
+1 - 200 DM,< 100 DM,2,female,4,bank,1,2,1
+1 - 200 DM,< 100 DM,2,single male,3,none,3,1,0
+< 0 DM,101 - 500 DM,4,married male,1,none,1,1,1
+1 - 200 DM,< 100 DM,1,female,4,bank,2,1,0
+unknown,> 1000 DM,2,single male,3,none,3,1,1
+1 - 200 DM,101 - 500 DM,4,single male,4,none,1,2,1
+1 - 200 DM,< 100 DM,4,single male,2,none,1,2,1
+unknown,< 100 DM,2,married male,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,single male,4,none,1,1,1
+1 - 200 DM,< 100 DM,2,female,3,none,2,1,1
+unknown,< 100 DM,1,female,1,none,2,1,0
+1 - 200 DM,101 - 500 DM,4,female,4,bank,4,1,1
+1 - 200 DM,unknown,4,single male,4,bank,1,1,0
+1 - 200 DM,< 100 DM,4,divorced male,3,none,1,1,1
+unknown,501 - 1000 DM,4,single male,2,none,2,1,0
+< 0 DM,< 100 DM,4,married male,3,none,1,1,0
+unknown,< 100 DM,3,single male,4,none,2,1,0
+< 0 DM,< 100 DM,4,married male,4,none,1,1,1
+unknown,< 100 DM,4,single male,1,none,2,2,0
+< 0 DM,< 100 DM,3,single male,4,none,3,2,0
+unknown,< 100 DM,4,single male,4,none,3,1,0
+1 - 200 DM,< 100 DM,4,single male,3,none,1,1,0
+< 0 DM,< 100 DM,2,married male,2,stores,1,1,0
+unknown,> 1000 DM,3,single male,2,none,1,1,0
+unknown,unknown,1,single male,2,none,2,2,0
+unknown,unknown,2,female,4,none,1,1,0
+< 0 DM,< 100 DM,2,single male,4,stores,2,1,1
+> 200 DM,< 100 DM,4,single male,4,none,1,1,1
+unknown,unknown,4,single male,2,none,1,1,0
+1 - 200 DM,unknown,1,female,3,none,2,1,0
+< 0 DM,< 100 DM,3,single male,1,bank,1,1,0
+> 200 DM,< 100 DM,2,single male,2,none,1,1,0
+< 0 DM,< 100 DM,2,divorced male,2,none,1,1,0
+unknown,< 100 DM,2,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,married male,1,bank,1,1,0
+< 0 DM,unknown,4,female,4,bank,1,1,0
+unknown,< 100 DM,4,single male,2,bank,2,1,0
+unknown,unknown,4,single male,4,none,2,2,0
+unknown,< 100 DM,3,single male,2,none,1,1,0
+unknown,< 100 DM,4,single male,2,none,2,1,0
+1 - 200 DM,> 1000 DM,1,single male,2,bank,2,1,1
+< 0 DM,< 100 DM,4,single male,4,none,1,1,1
+unknown,< 100 DM,4,single male,2,none,1,1,1
+< 0 DM,< 100 DM,4,single male,1,bank,1,1,0
+> 200 DM,< 100 DM,4,single male,2,none,1,1,1
+unknown,501 - 1000 DM,2,single male,4,none,1,1,0
+unknown,101 - 500 DM,3,single male,1,none,1,1,0
+1 - 200 DM,< 100 DM,4,married male,2,none,1,1,0
+unknown,< 100 DM,2,single male,1,none,3,2,0
+< 0 DM,< 100 DM,4,single male,2,stores,1,2,1
+1 - 200 DM,unknown,1,single male,2,none,1,1,1
+1 - 200 DM,101 - 500 DM,4,divorced male,2,bank,2,1,1
+unknown,< 100 DM,4,female,2,none,2,1,0
+< 0 DM,< 100 DM,1,single male,3,none,1,2,0
+< 0 DM,unknown,4,female,2,bank,1,1,1
+unknown,< 100 DM,3,single male,2,none,1,2,0
+< 0 DM,< 100 DM,3,single male,4,none,2,2,1
+unknown,< 100 DM,3,female,2,none,2,1,0
+unknown,501 - 1000 DM,4,female,3,none,1,2,0
+unknown,< 100 DM,4,single male,1,none,1,1,0
+unknown,< 100 DM,4,single male,4,none,3,1,0
+unknown,101 - 500 DM,4,single male,1,bank,1,1,0
+> 200 DM,< 100 DM,2,single male,2,none,1,1,0
+unknown,< 100 DM,3,female,4,none,1,1,1
+< 0 DM,> 1000 DM,3,female,4,none,2,1,0
+> 200 DM,< 100 DM,1,female,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,2,bank,1,1,1
+unknown,101 - 500 DM,2,single male,3,none,2,1,0
+1 - 200 DM,unknown,2,single male,1,none,1,1,0
+1 - 200 DM,unknown,1,single male,1,none,1,1,0
+unknown,< 100 DM,4,single male,2,none,2,1,0
+< 0 DM,< 100 DM,4,divorced male,1,none,1,1,1
+unknown,101 - 500 DM,1,female,4,none,1,1,0
+unknown,101 - 500 DM,4,female,4,none,3,1,0
+< 0 DM,< 100 DM,2,single male,2,none,1,1,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,0
+< 0 DM,< 100 DM,2,single male,4,none,3,1,0
+unknown,< 100 DM,2,female,4,bank,3,1,0
+unknown,< 100 DM,3,single male,4,none,2,2,0
+1 - 200 DM,< 100 DM,4,single male,3,none,1,2,1
+unknown,unknown,4,single male,4,none,2,1,0
+unknown,< 100 DM,4,female,3,stores,1,1,0
+< 0 DM,< 100 DM,1,divorced male,4,none,1,1,1
+unknown,unknown,4,single male,2,none,2,1,0
+unknown,unknown,4,single male,3,none,1,1,0
+unknown,501 - 1000 DM,3,female,4,none,1,1,0
+1 - 200 DM,unknown,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,2,1,1
+< 0 DM,< 100 DM,1,divorced male,1,none,1,1,1
+unknown,< 100 DM,1,single male,2,none,1,2,0
+unknown,< 100 DM,2,female,2,none,2,1,0
+< 0 DM,unknown,2,divorced male,4,none,1,1,0
+unknown,< 100 DM,1,female,4,none,1,1,1
+unknown,101 - 500 DM,4,single male,4,none,1,1,0
+unknown,> 1000 DM,3,single male,4,none,2,1,0
+unknown,< 100 DM,4,single male,2,none,1,1,0
+> 200 DM,unknown,4,single male,4,bank,1,1,0
+unknown,unknown,4,single male,4,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,divorced male,2,none,1,1,0
+< 0 DM,< 100 DM,1,female,1,none,1,1,0
+< 0 DM,< 100 DM,4,single male,3,none,1,2,0
+1 - 200 DM,101 - 500 DM,2,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,4,none,2,1,0
+< 0 DM,< 100 DM,4,married male,4,stores,1,1,1
+unknown,< 100 DM,2,married male,2,none,1,1,0
+1 - 200 DM,< 100 DM,1,married male,4,none,1,1,1
+< 0 DM,< 100 DM,2,female,4,none,2,2,0
+> 200 DM,< 100 DM,4,single male,4,none,1,1,0
+unknown,unknown,4,divorced male,2,bank,2,2,0
+1 - 200 DM,< 100 DM,1,female,2,none,1,1,1
+unknown,unknown,1,female,4,none,1,1,0
+unknown,unknown,4,single male,2,none,1,1,0
+unknown,< 100 DM,3,single male,4,none,1,1,0
+1 - 200 DM,> 1000 DM,3,single male,2,none,2,1,0
+unknown,< 100 DM,1,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,1,none,1,1,1
+> 200 DM,unknown,4,single male,2,bank,2,2,1
+< 0 DM,< 100 DM,4,single male,3,none,2,1,0
+unknown,501 - 1000 DM,2,single male,2,bank,1,1,1
+unknown,> 1000 DM,4,divorced male,2,none,1,1,0
+unknown,unknown,2,female,4,stores,1,1,0
+< 0 DM,101 - 500 DM,4,married male,3,none,1,1,1
+1 - 200 DM,< 100 DM,3,female,4,none,1,1,1
+1 - 200 DM,< 100 DM,4,married male,4,none,1,1,0
+1 - 200 DM,unknown,3,single male,4,bank,1,1,0
+unknown,101 - 500 DM,4,single male,1,stores,1,1,0
+> 200 DM,< 100 DM,2,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,2,married male,3,bank,1,1,1
+> 200 DM,unknown,1,single male,2,none,1,2,0
+< 0 DM,< 100 DM,4,single male,4,bank,1,1,1
+< 0 DM,< 100 DM,2,single male,3,none,1,2,0
+1 - 200 DM,unknown,1,female,4,none,1,1,0
+unknown,< 100 DM,4,single male,2,none,2,1,0
+< 0 DM,< 100 DM,1,female,4,none,2,1,0
+1 - 200 DM,< 100 DM,4,married male,2,none,2,1,1
+< 0 DM,< 100 DM,4,divorced male,3,none,1,1,1
+< 0 DM,< 100 DM,2,single male,1,none,1,1,0
+< 0 DM,> 1000 DM,4,single male,2,none,1,1,0
+unknown,< 100 DM,4,female,3,none,2,1,0
+< 0 DM,< 100 DM,1,single male,4,none,2,1,0
+unknown,unknown,2,single male,4,none,1,1,0
+unknown,> 1000 DM,4,female,3,none,1,2,0
+> 200 DM,< 100 DM,4,single male,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,1,2,0
+< 0 DM,< 100 DM,2,single male,4,none,2,1,0
+unknown,101 - 500 DM,4,female,2,none,2,1,1
+1 - 200 DM,101 - 500 DM,4,female,2,none,1,1,1
+unknown,101 - 500 DM,2,female,4,bank,2,1,1
+< 0 DM,< 100 DM,3,single male,4,bank,2,2,1
+< 0 DM,< 100 DM,1,divorced male,4,none,1,1,1
+1 - 200 DM,< 100 DM,2,female,4,none,1,1,0
+< 0 DM,unknown,4,female,2,none,1,1,1
+< 0 DM,< 100 DM,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,divorced male,2,none,1,1,0
+1 - 200 DM,< 100 DM,2,female,4,none,2,1,0
+< 0 DM,< 100 DM,1,female,4,none,1,1,0
+1 - 200 DM,501 - 1000 DM,1,married male,3,none,1,1,0
+1 - 200 DM,< 100 DM,1,single male,1,bank,1,1,0
+> 200 DM,< 100 DM,1,single male,1,none,1,2,0
+unknown,< 100 DM,4,female,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,2,1,0
+1 - 200 DM,501 - 1000 DM,1,female,4,none,1,1,0
+unknown,101 - 500 DM,1,single male,2,none,2,1,0
+1 - 200 DM,> 1000 DM,4,single male,3,none,2,2,1
+unknown,< 100 DM,1,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,1,female,2,none,1,1,1
+unknown,unknown,2,single male,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,2,none,2,1,1
+unknown,501 - 1000 DM,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,2,stores,1,1,1
+unknown,unknown,1,single male,4,none,1,1,0
+unknown,< 100 DM,4,single male,2,none,2,1,1
+unknown,< 100 DM,4,married male,2,none,1,1,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+1 - 200 DM,unknown,4,single male,4,none,1,1,0
+> 200 DM,unknown,2,single male,3,none,1,1,0
+> 200 DM,< 100 DM,2,female,2,stores,2,1,0
+unknown,< 100 DM,1,married male,2,none,1,1,0
+< 0 DM,< 100 DM,4,single male,1,none,1,1,1
+unknown,< 100 DM,2,single male,4,none,1,1,0
+unknown,< 100 DM,3,single male,1,none,2,1,0
+< 0 DM,< 100 DM,1,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,2,none,1,2,1
+1 - 200 DM,< 100 DM,2,female,4,none,1,1,0
+unknown,unknown,4,single male,4,none,1,1,0
+unknown,< 100 DM,3,single male,4,none,2,1,0
+unknown,< 100 DM,1,female,3,none,2,1,0
+unknown,unknown,2,single male,4,bank,1,1,0
+1 - 200 DM,101 - 500 DM,3,female,4,bank,2,1,1
+< 0 DM,< 100 DM,2,female,4,none,1,1,1
+unknown,< 100 DM,2,married male,3,none,2,1,0
+unknown,unknown,3,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,2,none,1,1,1
+unknown,101 - 500 DM,4,female,4,none,2,1,0
+< 0 DM,unknown,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,3,female,4,none,1,1,1
+unknown,unknown,4,female,4,none,1,1,0
+> 200 DM,< 100 DM,4,single male,1,none,1,1,0
+unknown,101 - 500 DM,2,single male,2,none,2,1,0
+unknown,< 100 DM,2,female,1,none,2,1,0
+unknown,unknown,4,female,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,stores,2,1,0
+1 - 200 DM,501 - 1000 DM,2,single male,4,bank,1,1,0
+unknown,< 100 DM,3,female,2,none,2,1,0
+unknown,< 100 DM,2,married male,2,none,1,1,0
+1 - 200 DM,> 1000 DM,1,female,4,none,1,1,0
+< 0 DM,< 100 DM,2,single male,4,bank,1,2,0
+< 0 DM,< 100 DM,1,female,4,none,1,1,0
+unknown,< 100 DM,2,single male,3,none,1,1,0
+1 - 200 DM,101 - 500 DM,2,single male,3,none,1,1,0
+< 0 DM,< 100 DM,3,female,4,none,1,1,0
+< 0 DM,< 100 DM,3,married male,2,none,2,1,0
+1 - 200 DM,< 100 DM,1,divorced male,1,none,2,1,1
+unknown,> 1000 DM,4,female,1,none,2,1,0
+unknown,< 100 DM,3,married male,4,none,1,1,0
+1 - 200 DM,unknown,4,married male,4,bank,2,1,0
+unknown,< 100 DM,2,single male,2,bank,2,1,1
+unknown,< 100 DM,4,single male,2,none,2,1,0
+1 - 200 DM,unknown,4,single male,4,none,1,2,0
+1 - 200 DM,< 100 DM,1,married male,1,none,1,1,1
+unknown,unknown,4,single male,4,none,2,2,0
+< 0 DM,< 100 DM,4,married male,2,none,1,1,0
+unknown,501 - 1000 DM,3,divorced male,2,none,1,1,0
+> 200 DM,501 - 1000 DM,4,married male,2,none,3,1,1
+1 - 200 DM,< 100 DM,4,female,4,none,1,1,0
+unknown,< 100 DM,3,single male,2,none,2,1,0
+unknown,< 100 DM,4,single male,2,stores,2,1,1
+unknown,501 - 1000 DM,3,single male,2,none,1,2,0
+< 0 DM,unknown,4,female,2,none,1,1,1
+unknown,< 100 DM,2,single male,2,none,2,2,0
+< 0 DM,< 100 DM,4,single male,1,none,1,2,1
+< 0 DM,unknown,1,female,2,none,2,1,0
+unknown,501 - 1000 DM,1,female,2,bank,1,1,0
+1 - 200 DM,unknown,4,female,2,none,1,1,1
+unknown,> 1000 DM,2,female,3,none,1,1,0
+1 - 200 DM,unknown,4,single male,2,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,3,none,2,2,0
+unknown,101 - 500 DM,4,single male,3,none,2,1,0
+1 - 200 DM,unknown,1,female,2,bank,1,1,1
+1 - 200 DM,< 100 DM,1,married male,3,none,1,1,0
+unknown,< 100 DM,4,single male,2,none,2,1,0
+unknown,> 1000 DM,4,single male,3,none,2,1,0
+unknown,< 100 DM,1,single male,4,none,1,1,0
+< 0 DM,< 100 DM,2,female,4,none,3,2,1
+unknown,< 100 DM,1,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,3,bank,2,1,1
+< 0 DM,< 100 DM,4,single male,4,none,3,1,0
+unknown,< 100 DM,4,divorced male,2,none,2,1,0
+< 0 DM,< 100 DM,3,single male,2,none,1,1,0
+1 - 200 DM,unknown,2,married male,1,none,1,1,1
+unknown,501 - 1000 DM,2,married male,4,none,1,1,0
+unknown,> 1000 DM,4,female,4,none,2,1,0
+< 0 DM,< 100 DM,4,single male,4,none,2,1,0
+> 200 DM,< 100 DM,4,female,1,none,1,1,1
+unknown,< 100 DM,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,2,female,3,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,3,bank,2,1,0
+unknown,< 100 DM,4,single male,4,bank,1,2,1
+1 - 200 DM,< 100 DM,2,female,3,none,1,1,1
+unknown,unknown,4,female,4,none,2,1,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+1 - 200 DM,< 100 DM,2,single male,2,none,1,1,0
+> 200 DM,unknown,3,female,4,none,1,1,0
+1 - 200 DM,> 1000 DM,3,married male,3,stores,2,1,1
+unknown,unknown,4,single male,2,none,1,1,0
+unknown,< 100 DM,3,female,1,none,1,1,0
+unknown,< 100 DM,2,single male,4,none,2,1,0
+unknown,< 100 DM,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,2,single male,3,none,1,1,1
+unknown,< 100 DM,4,female,1,none,1,1,0
+< 0 DM,< 100 DM,2,single male,2,none,2,2,0
+< 0 DM,< 100 DM,3,single male,4,none,1,1,1
+< 0 DM,< 100 DM,4,female,1,none,1,1,0
+unknown,< 100 DM,3,single male,2,none,1,1,0
+< 0 DM,< 100 DM,1,single male,2,none,1,2,0
+< 0 DM,< 100 DM,2,single male,3,none,1,1,0
+1 - 200 DM,< 100 DM,3,female,1,none,1,1,0
+1 - 200 DM,unknown,4,single male,4,none,2,1,0
+unknown,< 100 DM,4,single male,1,stores,2,1,0
+< 0 DM,< 100 DM,3,single male,4,bank,1,2,0
+< 0 DM,< 100 DM,4,female,2,none,1,1,1
+unknown,unknown,3,single male,3,bank,2,2,0
+unknown,< 100 DM,2,female,2,none,2,1,0
+unknown,< 100 DM,3,single male,3,none,2,1,0
+1 - 200 DM,101 - 500 DM,3,married male,2,none,1,1,1
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+< 0 DM,< 100 DM,4,single male,3,none,1,1,1
+unknown,unknown,4,single male,4,none,1,2,0
+1 - 200 DM,< 100 DM,4,married male,2,none,1,1,1
+< 0 DM,< 100 DM,1,female,4,none,1,1,1
+unknown,501 - 1000 DM,4,single male,4,none,1,1,0
+> 200 DM,< 100 DM,4,single male,2,bank,1,1,0
+1 - 200 DM,101 - 500 DM,3,single male,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,none,2,2,0
+1 - 200 DM,< 100 DM,1,female,1,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,1,none,1,1,0
+< 0 DM,> 1000 DM,4,female,4,none,2,1,0
+unknown,> 1000 DM,3,female,2,none,2,1,0
+unknown,501 - 1000 DM,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,1,1,1
+unknown,< 100 DM,2,single male,4,none,1,1,0
+unknown,< 100 DM,4,female,4,none,1,1,0
+unknown,101 - 500 DM,3,single male,2,none,1,1,0
+unknown,< 100 DM,2,single male,3,none,1,1,0
+unknown,< 100 DM,2,single male,2,none,2,1,0
+1 - 200 DM,< 100 DM,2,female,4,none,2,1,1
+unknown,101 - 500 DM,1,female,1,none,2,1,0
+1 - 200 DM,unknown,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,3,single male,2,none,2,2,0
+< 0 DM,unknown,2,married male,4,none,1,1,1
+1 - 200 DM,101 - 500 DM,4,single male,1,none,1,1,1
+unknown,< 100 DM,4,single male,3,none,2,1,0
+1 - 200 DM,< 100 DM,4,married male,2,none,1,1,0
+> 200 DM,101 - 500 DM,2,divorced male,4,none,2,2,0
+< 0 DM,< 100 DM,4,female,1,none,1,1,1
+< 0 DM,< 100 DM,2,single male,4,none,1,2,0
+> 200 DM,101 - 500 DM,2,divorced male,4,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,single male,4,bank,2,2,1
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+unknown,unknown,4,single male,4,none,1,1,1
+> 200 DM,501 - 1000 DM,2,single male,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,1,single male,2,none,1,2,1
+unknown,< 100 DM,4,married male,2,none,1,1,0
+unknown,101 - 500 DM,4,single male,2,none,1,1,0
+< 0 DM,< 100 DM,4,single male,2,none,1,1,1
+unknown,< 100 DM,2,single male,2,none,1,1,0
+> 200 DM,< 100 DM,2,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,married male,4,none,2,1,0
+unknown,unknown,4,single male,1,none,1,1,0
+< 0 DM,< 100 DM,4,female,3,none,2,1,0
+< 0 DM,< 100 DM,2,single male,4,none,1,2,0
+unknown,< 100 DM,2,female,4,none,2,1,1
+< 0 DM,101 - 500 DM,3,single male,2,none,1,1,0
+unknown,unknown,4,single male,4,none,2,1,0
+unknown,< 100 DM,3,single male,4,none,2,1,0
+< 0 DM,< 100 DM,2,female,2,none,1,1,1
+< 0 DM,< 100 DM,3,single male,4,none,2,2,1
+unknown,101 - 500 DM,3,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,4,none,1,2,0
+1 - 200 DM,< 100 DM,2,single male,3,none,2,1,0
+unknown,101 - 500 DM,4,female,3,none,1,1,0
+unknown,< 100 DM,2,single male,1,none,2,2,0
+< 0 DM,< 100 DM,4,divorced male,4,none,1,1,1
+< 0 DM,< 100 DM,3,single male,4,none,1,2,0
+1 - 200 DM,< 100 DM,3,single male,1,none,2,2,0
+1 - 200 DM,101 - 500 DM,2,female,4,none,2,1,1
+unknown,< 100 DM,4,married male,4,none,1,1,0
+unknown,101 - 500 DM,4,married male,3,none,1,1,0
+unknown,unknown,4,single male,2,none,2,1,0
+> 200 DM,< 100 DM,2,divorced male,1,none,1,1,1
+< 0 DM,unknown,4,female,3,none,1,1,0
+1 - 200 DM,< 100 DM,3,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,bank,1,1,1
+> 200 DM,< 100 DM,1,female,1,stores,1,1,0
+1 - 200 DM,< 100 DM,1,married male,1,none,1,1,1
+unknown,< 100 DM,4,single male,4,none,2,1,0
+< 0 DM,unknown,4,single male,4,none,1,1,1
+> 200 DM,< 100 DM,2,single male,1,none,1,2,1
+unknown,< 100 DM,4,single male,4,none,2,1,0
+< 0 DM,< 100 DM,4,single male,2,none,2,2,1
+unknown,< 100 DM,4,female,4,none,1,1,0
+unknown,< 100 DM,3,single male,1,bank,1,2,0
+< 0 DM,< 100 DM,4,female,4,bank,1,1,1
+unknown,unknown,2,single male,1,none,2,1,0
+unknown,unknown,4,female,4,none,2,1,0
+unknown,501 - 1000 DM,2,single male,4,bank,1,2,0
+< 0 DM,< 100 DM,1,married male,1,none,2,1,1
+1 - 200 DM,101 - 500 DM,4,single male,1,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,4,none,2,1,0
+1 - 200 DM,< 100 DM,2,single male,1,stores,1,1,1
+1 - 200 DM,101 - 500 DM,3,female,3,none,2,1,1
+unknown,unknown,1,female,4,bank,2,1,1
+< 0 DM,< 100 DM,3,single male,4,bank,1,1,1
+1 - 200 DM,< 100 DM,2,single male,2,none,2,1,1
+< 0 DM,unknown,4,single male,4,bank,1,2,0
+< 0 DM,< 100 DM,4,single male,4,bank,1,1,1
+> 200 DM,< 100 DM,2,female,1,bank,1,1,0
+1 - 200 DM,unknown,1,single male,4,none,1,1,1
+1 - 200 DM,unknown,4,single male,2,bank,2,1,0
+1 - 200 DM,101 - 500 DM,3,female,2,none,2,1,0
+< 0 DM,< 100 DM,2,divorced male,3,none,1,1,1
+unknown,> 1000 DM,2,single male,2,none,1,1,0
+1 - 200 DM,unknown,4,single male,1,none,2,2,0
+< 0 DM,< 100 DM,3,female,2,none,1,1,1
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+unknown,< 100 DM,3,single male,2,none,1,1,0
+unknown,unknown,2,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,2,1,0
+unknown,< 100 DM,2,female,3,bank,2,1,0
+1 - 200 DM,< 100 DM,2,female,1,none,1,1,0
+unknown,unknown,3,female,2,none,2,1,0
+1 - 200 DM,< 100 DM,4,divorced male,4,none,2,1,1
+unknown,< 100 DM,4,married male,3,none,2,1,0
+1 - 200 DM,< 100 DM,3,single male,3,bank,2,1,1
+1 - 200 DM,< 100 DM,1,single male,3,bank,2,2,0
+unknown,< 100 DM,4,female,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,1,none,1,1,1
+unknown,unknown,4,female,4,none,1,1,0
+< 0 DM,< 100 DM,1,female,4,bank,1,1,1
+< 0 DM,< 100 DM,2,single male,2,none,2,2,0
+< 0 DM,< 100 DM,4,single male,1,none,1,1,0
+< 0 DM,< 100 DM,4,married male,3,none,1,1,1
+< 0 DM,< 100 DM,3,single male,3,none,2,1,1
+< 0 DM,< 100 DM,4,female,3,none,4,1,0
+1 - 200 DM,unknown,4,female,4,none,2,1,0
+unknown,> 1000 DM,4,female,4,bank,1,1,0
+1 - 200 DM,< 100 DM,3,female,4,none,1,1,1
+< 0 DM,unknown,4,single male,3,stores,1,1,1
+1 - 200 DM,101 - 500 DM,1,female,1,stores,1,1,1
+< 0 DM,< 100 DM,4,female,4,none,2,1,1
+1 - 200 DM,< 100 DM,1,single male,4,none,3,1,1
+unknown,< 100 DM,2,single male,2,bank,2,1,1
+unknown,< 100 DM,1,single male,2,none,1,1,0
+1 - 200 DM,< 100 DM,1,female,1,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,1,none,1,1,1
+1 - 200 DM,< 100 DM,4,female,4,bank,1,1,1
+unknown,< 100 DM,4,female,2,none,1,1,1
+> 200 DM,< 100 DM,4,female,2,none,1,1,0
+< 0 DM,501 - 1000 DM,4,single male,4,stores,1,1,0
+unknown,< 100 DM,3,single male,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,female,4,none,1,1,1
+unknown,< 100 DM,4,single male,1,none,1,1,0
+unknown,unknown,4,single male,4,bank,1,2,0
+< 0 DM,101 - 500 DM,4,female,3,none,1,1,1
+> 200 DM,101 - 500 DM,1,female,4,none,1,2,1
+< 0 DM,> 1000 DM,4,female,2,bank,1,1,0
+< 0 DM,< 100 DM,1,female,4,bank,1,1,0
+unknown,< 100 DM,4,female,1,none,1,1,1
+1 - 200 DM,unknown,2,single male,2,bank,1,1,0
+1 - 200 DM,unknown,2,single male,2,none,1,1,0
+< 0 DM,< 100 DM,1,single male,3,none,3,2,0
+1 - 200 DM,101 - 500 DM,2,female,4,none,1,1,1
+unknown,< 100 DM,4,divorced male,2,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,3,none,2,1,0
+unknown,< 100 DM,3,single male,2,bank,2,1,1
+unknown,unknown,4,divorced male,2,bank,1,1,1
+< 0 DM,< 100 DM,4,female,1,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,none,2,1,1
+unknown,unknown,4,single male,2,none,1,1,0
+> 200 DM,< 100 DM,2,single male,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,2,single male,3,none,1,1,1
+unknown,501 - 1000 DM,4,single male,4,none,2,1,0
+unknown,unknown,1,single male,4,none,1,1,0
+< 0 DM,< 100 DM,2,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,3,bank,1,1,1
+1 - 200 DM,unknown,4,single male,1,none,1,1,0
+unknown,< 100 DM,2,female,2,none,2,1,1
+1 - 200 DM,< 100 DM,3,female,4,none,1,1,1
+unknown,< 100 DM,4,single male,4,bank,3,2,0
+unknown,501 - 1000 DM,4,female,1,none,1,1,0
+unknown,< 100 DM,2,single male,4,none,2,1,0
+unknown,< 100 DM,4,female,3,none,1,2,0
+< 0 DM,< 100 DM,3,single male,2,bank,2,2,1
+< 0 DM,< 100 DM,4,female,1,none,1,1,1
+1 - 200 DM,< 100 DM,4,single male,4,none,2,1,0
+unknown,101 - 500 DM,3,single male,2,none,1,1,1
+unknown,< 100 DM,4,married male,2,none,2,1,0
+< 0 DM,< 100 DM,4,married male,1,none,2,1,0
+unknown,unknown,4,single male,4,none,2,1,1
+< 0 DM,< 100 DM,2,divorced male,2,none,2,1,0
+unknown,501 - 1000 DM,2,female,2,none,1,1,1
+> 200 DM,< 100 DM,4,single male,3,bank,1,2,1
+< 0 DM,< 100 DM,4,single male,4,none,1,2,1
+< 0 DM,< 100 DM,4,single male,1,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,2,none,1,1,1
+< 0 DM,< 100 DM,4,single male,1,none,1,1,1
+1 - 200 DM,101 - 500 DM,2,single male,4,none,4,1,1
+unknown,< 100 DM,4,single male,3,none,2,1,0
+< 0 DM,< 100 DM,1,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,bank,1,2,1
+unknown,unknown,4,single male,3,stores,1,1,0
+1 - 200 DM,< 100 DM,2,female,1,none,2,1,0
+1 - 200 DM,< 100 DM,2,single male,1,none,1,1,0
+> 200 DM,< 100 DM,3,married male,4,none,1,1,0
+< 0 DM,unknown,4,married male,2,none,1,1,1
+unknown,< 100 DM,4,single male,2,none,2,1,0
+1 - 200 DM,< 100 DM,4,single male,1,stores,2,1,0
+> 200 DM,< 100 DM,2,female,4,none,1,1,0
+unknown,< 100 DM,4,single male,2,bank,2,1,0
+1 - 200 DM,> 1000 DM,4,single male,2,stores,1,2,0
+unknown,< 100 DM,1,female,1,stores,1,1,0
+< 0 DM,< 100 DM,3,single male,4,none,2,1,1
+> 200 DM,< 100 DM,4,single male,4,none,1,1,0
+unknown,101 - 500 DM,3,single male,3,none,2,1,0
+unknown,101 - 500 DM,2,single male,2,none,2,1,0
+unknown,< 100 DM,2,single male,4,none,1,1,0
+unknown,501 - 1000 DM,1,married male,2,none,1,1,0
+unknown,501 - 1000 DM,4,single male,2,bank,1,2,1
+unknown,< 100 DM,4,female,4,none,1,1,0
+unknown,< 100 DM,4,single male,4,none,1,1,0
+1 - 200 DM,101 - 500 DM,2,married male,2,none,1,1,1
+< 0 DM,< 100 DM,4,single male,4,bank,1,1,0
+unknown,< 100 DM,3,female,1,none,1,1,0
+unknown,< 100 DM,1,female,2,none,1,1,0
+unknown,unknown,4,single male,4,none,1,1,0
+unknown,< 100 DM,4,married male,3,bank,2,1,0
+unknown,< 100 DM,3,married male,3,none,3,1,0
+1 - 200 DM,101 - 500 DM,1,single male,3,none,2,2,0
+unknown,unknown,4,single male,4,none,1,2,0
+> 200 DM,unknown,4,single male,2,none,2,1,0
+1 - 200 DM,101 - 500 DM,4,single male,3,none,1,1,0
+unknown,101 - 500 DM,3,single male,4,none,1,1,0
+< 0 DM,> 1000 DM,1,single male,3,none,1,2,0
+< 0 DM,< 100 DM,2,divorced male,3,none,2,1,0
+1 - 200 DM,101 - 500 DM,3,female,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,2,single male,1,none,1,1,0
+< 0 DM,unknown,1,single male,3,none,2,2,0
+unknown,< 100 DM,4,single male,2,none,1,1,0
+unknown,501 - 1000 DM,2,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,3,none,2,1,0
+unknown,< 100 DM,1,female,2,none,1,1,0
+unknown,< 100 DM,4,single male,2,none,2,1,0
+> 200 DM,< 100 DM,4,single male,4,none,1,1,0
+unknown,501 - 1000 DM,4,female,4,none,1,1,1
+< 0 DM,< 100 DM,4,single male,4,none,2,1,1
+> 200 DM,101 - 500 DM,4,female,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,single male,2,stores,2,1,0
+1 - 200 DM,< 100 DM,4,female,1,none,1,2,0
+unknown,501 - 1000 DM,1,female,4,none,1,1,0
+1 - 200 DM,101 - 500 DM,3,single male,2,none,1,1,1
+1 - 200 DM,< 100 DM,4,female,3,none,2,1,1
+1 - 200 DM,< 100 DM,4,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,2,none,1,2,0
+unknown,501 - 1000 DM,4,single male,3,bank,2,1,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+unknown,unknown,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,none,2,1,0
+1 - 200 DM,< 100 DM,4,single male,2,none,1,1,1
+unknown,unknown,1,single male,4,none,2,1,0
+unknown,unknown,3,single male,2,none,2,2,0
+unknown,< 100 DM,4,single male,2,none,1,1,0
+> 200 DM,unknown,3,single male,2,none,2,1,0
+1 - 200 DM,101 - 500 DM,3,married male,4,bank,2,1,0
+> 200 DM,< 100 DM,4,single male,2,none,2,1,1
+1 - 200 DM,> 1000 DM,4,female,2,bank,1,2,1
+< 0 DM,< 100 DM,4,female,2,none,1,1,1
+1 - 200 DM,501 - 1000 DM,4,female,3,none,1,1,0
+unknown,< 100 DM,3,female,3,none,1,1,1
+unknown,> 1000 DM,2,female,2,bank,2,1,0
+unknown,501 - 1000 DM,2,married male,2,none,2,1,0
+< 0 DM,< 100 DM,4,female,4,bank,2,1,1
+1 - 200 DM,< 100 DM,4,female,3,none,1,1,1
+> 200 DM,> 1000 DM,2,divorced male,4,none,2,1,0
+1 - 200 DM,< 100 DM,1,single male,2,none,1,1,0
+< 0 DM,< 100 DM,2,single male,4,none,1,2,1
+1 - 200 DM,< 100 DM,4,female,2,none,1,1,0
+unknown,> 1000 DM,2,female,4,none,1,1,0
+unknown,< 100 DM,1,female,1,none,1,2,0
+1 - 200 DM,unknown,3,female,2,bank,1,1,0
+1 - 200 DM,< 100 DM,1,female,4,none,2,1,1
+< 0 DM,101 - 500 DM,3,single male,4,none,1,2,0
+unknown,< 100 DM,1,single male,3,none,2,2,0
+1 - 200 DM,101 - 500 DM,4,female,4,none,2,1,1
+< 0 DM,101 - 500 DM,2,single male,3,bank,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,stores,1,1,0
+unknown,unknown,4,single male,3,none,1,1,0
+< 0 DM,501 - 1000 DM,4,single male,4,stores,1,1,0
+< 0 DM,unknown,4,single male,4,none,2,1,0
+< 0 DM,< 100 DM,3,single male,1,bank,2,1,0
+< 0 DM,< 100 DM,1,female,4,none,1,1,0
+< 0 DM,< 100 DM,3,female,1,none,1,1,1
+unknown,unknown,1,single male,3,none,1,1,0
+unknown,< 100 DM,2,single male,2,none,1,1,0
+< 0 DM,< 100 DM,2,female,1,bank,1,1,0
+< 0 DM,< 100 DM,1,female,2,none,1,1,1
+1 - 200 DM,101 - 500 DM,2,female,4,none,1,1,0
+unknown,< 100 DM,4,female,2,none,2,1,0
+unknown,> 1000 DM,4,single male,4,none,2,2,1
+< 0 DM,unknown,4,female,4,none,1,1,1
+> 200 DM,< 100 DM,1,single male,1,none,3,2,0
+> 200 DM,unknown,3,single male,4,none,2,1,1
+unknown,< 100 DM,2,single male,2,none,1,1,0
+< 0 DM,< 100 DM,4,single male,3,none,2,1,1
+unknown,unknown,1,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,female,4,none,2,1,1
+< 0 DM,< 100 DM,4,single male,3,none,1,1,0
+unknown,unknown,4,single male,4,none,1,1,1
+unknown,101 - 500 DM,4,married male,3,none,2,1,0
+1 - 200 DM,< 100 DM,3,married male,3,bank,2,1,0
+< 0 DM,< 100 DM,2,divorced male,4,none,1,1,1
+unknown,unknown,1,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,1,single male,4,none,3,1,0
+unknown,< 100 DM,2,single male,4,none,2,1,0
+< 0 DM,unknown,2,female,4,none,1,1,0
+< 0 DM,< 100 DM,3,female,2,none,2,1,1
+unknown,< 100 DM,1,single male,4,none,1,1,0
+unknown,101 - 500 DM,4,single male,4,bank,2,1,0
+> 200 DM,501 - 1000 DM,2,single male,4,bank,3,1,0
+< 0 DM,unknown,4,female,4,none,1,1,1
+unknown,< 100 DM,4,single male,4,none,2,1,0
+< 0 DM,< 100 DM,4,female,1,none,1,1,0
+unknown,> 1000 DM,4,single male,2,none,2,1,0
+1 - 200 DM,< 100 DM,2,female,4,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,2,none,2,1,1
+unknown,> 1000 DM,4,single male,4,none,1,1,0
+1 - 200 DM,< 100 DM,2,single male,2,none,1,1,0
+1 - 200 DM,101 - 500 DM,4,female,2,bank,1,1,1
+1 - 200 DM,unknown,1,divorced male,4,none,1,1,0
+1 - 200 DM,> 1000 DM,4,single male,2,none,1,1,0
+unknown,501 - 1000 DM,3,single male,4,none,1,1,0
+unknown,unknown,4,single male,3,none,2,2,0
+1 - 200 DM,< 100 DM,4,single male,4,none,1,1,1
+< 0 DM,< 100 DM,4,single male,3,bank,1,1,1
+1 - 200 DM,< 100 DM,2,female,4,none,1,2,1
+unknown,unknown,3,single male,4,none,1,2,0
+unknown,unknown,1,married male,2,none,2,1,0
+> 200 DM,< 100 DM,3,divorced male,4,none,1,1,0
+unknown,501 - 1000 DM,4,single male,3,none,1,1,0
+unknown,101 - 500 DM,2,female,4,none,1,1,0
+< 0 DM,unknown,1,single male,4,none,1,2,1
+unknown,< 100 DM,2,female,4,none,2,1,0
+unknown,unknown,4,married male,4,none,2,1,0
+1 - 200 DM,unknown,4,single male,2,none,1,1,0
+unknown,< 100 DM,4,single male,4,none,2,2,0
+1 - 200 DM,< 100 DM,3,female,4,bank,2,1,0
+< 0 DM,< 100 DM,1,female,4,none,2,1,0
+unknown,unknown,4,single male,4,none,2,1,0
+1 - 200 DM,unknown,1,female,2,none,1,1,0
+< 0 DM,< 100 DM,2,single male,1,none,1,1,1
+1 - 200 DM,< 100 DM,3,married male,3,none,1,1,0
+unknown,unknown,4,single male,4,none,4,1,0
+1 - 200 DM,< 100 DM,1,single male,2,bank,1,1,0
+1 - 200 DM,< 100 DM,2,female,1,none,2,1,1
+1 - 200 DM,< 100 DM,3,married male,2,none,1,1,0
+1 - 200 DM,< 100 DM,3,married male,3,bank,1,1,0
+< 0 DM,< 100 DM,4,single male,4,none,2,1,1
+< 0 DM,< 100 DM,3,single male,4,none,1,1,1
+< 0 DM,< 100 DM,4,single male,4,none,1,2,1
+1 - 200 DM,< 100 DM,2,female,2,none,1,1,0
+unknown,501 - 1000 DM,1,divorced male,4,none,1,1,0
+unknown,< 100 DM,1,female,2,none,2,1,0
+< 0 DM,< 100 DM,2,divorced male,3,none,1,1,0
+< 0 DM,< 100 DM,4,married male,3,bank,1,1,1
+unknown,< 100 DM,3,married male,2,none,2,1,0
+> 200 DM,< 100 DM,3,married male,1,none,1,1,0
+< 0 DM,< 100 DM,2,single male,2,bank,1,2,1
+< 0 DM,< 100 DM,4,single male,4,none,2,1,0
+unknown,< 100 DM,3,divorced male,2,none,2,1,0
+< 0 DM,< 100 DM,4,married male,3,none,2,1,0
+< 0 DM,< 100 DM,1,female,4,bank,3,1,1
+unknown,< 100 DM,2,single male,2,stores,2,2,1
+< 0 DM,unknown,3,single male,4,none,1,1,1
+1 - 200 DM,unknown,4,single male,4,none,1,2,0
+unknown,501 - 1000 DM,4,single male,2,none,2,2,0
+< 0 DM,< 100 DM,4,female,3,none,1,1,1
+< 0 DM,< 100 DM,2,single male,4,none,2,1,1
+1 - 200 DM,unknown,2,female,4,none,1,1,0
+> 200 DM,< 100 DM,2,female,3,none,1,1,1
+< 0 DM,< 100 DM,4,single male,4,bank,2,1,1
+unknown,unknown,4,female,2,none,1,1,0
+unknown,< 100 DM,1,female,3,none,1,2,0
+< 0 DM,< 100 DM,4,single male,4,none,2,1,0
+unknown,< 100 DM,4,married male,3,none,2,1,0
+< 0 DM,< 100 DM,4,single male,2,none,1,1,1
+unknown,< 100 DM,3,single male,2,stores,2,1,0
+unknown,< 100 DM,4,female,4,none,1,1,1
+unknown,< 100 DM,4,single male,4,bank,1,1,0
+unknown,< 100 DM,4,single male,4,bank,3,2,0
+1 - 200 DM,unknown,2,single male,3,none,1,1,0
+unknown,unknown,2,single male,4,none,2,1,1
+unknown,< 100 DM,4,married male,2,none,1,1,0
+< 0 DM,< 100 DM,3,single male,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,stores,1,1,1
+< 0 DM,< 100 DM,4,married male,2,bank,2,1,1
+unknown,unknown,3,single male,4,none,2,1,0
+unknown,< 100 DM,4,single male,4,none,2,1,0
+< 0 DM,< 100 DM,4,single male,4,none,2,2,1
+unknown,< 100 DM,2,single male,2,none,2,2,0
+unknown,101 - 500 DM,4,married male,3,none,1,1,0
+unknown,unknown,4,female,3,none,1,1,0
+unknown,< 100 DM,4,single male,2,none,1,1,0
+< 0 DM,< 100 DM,3,female,2,none,1,1,1
+unknown,101 - 500 DM,1,single male,2,none,1,2,0
+unknown,> 1000 DM,4,single male,2,none,2,1,0
+unknown,< 100 DM,4,married male,2,none,1,1,1
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+unknown,> 1000 DM,4,single male,2,stores,2,2,0
+unknown,< 100 DM,2,single male,2,bank,1,1,1
+unknown,501 - 1000 DM,2,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,female,1,stores,1,1,0
+unknown,< 100 DM,2,single male,4,stores,1,1,0
+unknown,unknown,3,single male,2,none,2,1,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,0
+unknown,501 - 1000 DM,2,female,4,none,2,1,0
+> 200 DM,< 100 DM,1,single male,4,none,2,2,0
+< 0 DM,101 - 500 DM,4,single male,1,none,2,1,0
+unknown,unknown,4,female,1,none,1,1,0
+< 0 DM,< 100 DM,2,single male,2,none,1,2,0
+1 - 200 DM,> 1000 DM,4,female,4,none,2,1,0
+< 0 DM,< 100 DM,3,single male,4,bank,1,1,0
+unknown,< 100 DM,4,single male,2,none,1,1,0
+< 0 DM,< 100 DM,3,single male,2,none,1,1,1
+unknown,unknown,2,single male,3,none,2,1,0
+unknown,< 100 DM,3,single male,3,none,1,1,0
+unknown,unknown,2,divorced male,4,none,1,1,0
+1 - 200 DM,unknown,4,single male,4,none,2,1,0
+unknown,< 100 DM,4,female,4,none,2,1,0
+1 - 200 DM,< 100 DM,3,divorced male,3,none,1,1,1
+< 0 DM,< 100 DM,4,female,4,none,1,1,1
+1 - 200 DM,unknown,4,single male,3,none,2,2,0
+1 - 200 DM,< 100 DM,2,single male,2,none,1,1,1
+unknown,< 100 DM,4,single male,4,none,2,1,0
+unknown,unknown,3,single male,4,bank,2,2,0
+< 0 DM,< 100 DM,4,single male,4,stores,4,2,0
+unknown,< 100 DM,4,single male,4,none,2,1,0
+< 0 DM,< 100 DM,4,single male,4,bank,2,1,0
+1 - 200 DM,< 100 DM,3,single male,4,none,2,1,0
+unknown,unknown,4,single male,3,none,2,1,0
+unknown,unknown,3,single male,2,stores,1,2,0
+< 0 DM,< 100 DM,4,female,4,none,1,1,0
+unknown,> 1000 DM,3,female,2,none,1,1,0
+unknown,unknown,1,female,4,bank,1,1,0
+< 0 DM,< 100 DM,2,single male,3,none,1,1,1
+< 0 DM,< 100 DM,2,single male,4,bank,1,1,1
+unknown,unknown,2,divorced male,4,none,2,1,0
+unknown,unknown,2,single male,4,none,2,1,0
+unknown,unknown,4,married male,2,none,1,1,0
+unknown,< 100 DM,4,single male,1,none,1,1,0
+< 0 DM,< 100 DM,2,single male,2,none,1,2,0
+< 0 DM,unknown,2,single male,2,none,1,1,0
+1 - 200 DM,unknown,2,married male,2,none,1,1,0
+unknown,< 100 DM,1,female,2,none,2,1,0
+1 - 200 DM,unknown,1,female,2,none,1,1,0
+unknown,< 100 DM,4,female,4,none,2,1,0
+1 - 200 DM,< 100 DM,2,female,4,bank,1,1,1
+1 - 200 DM,unknown,2,female,4,none,1,1,0
+unknown,> 1000 DM,1,divorced male,2,none,1,1,0
+< 0 DM,< 100 DM,4,single male,2,none,1,1,1
+1 - 200 DM,< 100 DM,1,female,2,bank,1,1,1
+unknown,101 - 500 DM,1,single male,2,none,1,2,0
+< 0 DM,< 100 DM,1,single male,4,bank,1,1,1
+< 0 DM,101 - 500 DM,1,divorced male,1,none,1,1,1
+< 0 DM,< 100 DM,4,single male,2,none,1,1,1
+unknown,< 100 DM,4,female,2,none,2,1,0
+unknown,501 - 1000 DM,4,single male,1,none,1,1,0
+< 0 DM,< 100 DM,3,female,4,none,1,1,1
+1 - 200 DM,< 100 DM,3,single male,4,none,1,2,0
+< 0 DM,< 100 DM,2,divorced male,1,bank,1,1,1
+< 0 DM,< 100 DM,4,single male,2,bank,2,1,1
+< 0 DM,< 100 DM,4,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,stores,3,2,1
+unknown,unknown,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,2,none,2,2,0
+< 0 DM,< 100 DM,4,single male,1,none,1,1,0
+1 - 200 DM,< 100 DM,4,female,2,none,1,1,1
+unknown,< 100 DM,3,single male,1,none,2,1,0
+unknown,501 - 1000 DM,4,single male,4,none,2,2,0
+< 0 DM,< 100 DM,4,female,1,bank,1,1,0
+1 - 200 DM,101 - 500 DM,4,single male,3,stores,2,1,1
+> 200 DM,< 100 DM,3,female,2,none,1,1,1
+1 - 200 DM,< 100 DM,4,married male,3,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,4,none,1,1,1
+unknown,unknown,2,single male,4,none,2,2,0
+unknown,unknown,2,single male,3,none,1,2,0
+unknown,< 100 DM,3,single male,2,none,1,2,0
+unknown,unknown,4,single male,2,stores,1,1,0
+unknown,< 100 DM,2,single male,1,none,3,2,0
+< 0 DM,< 100 DM,4,female,1,none,1,1,0
+1 - 200 DM,501 - 1000 DM,1,female,1,none,2,1,0
+< 0 DM,501 - 1000 DM,4,single male,4,none,1,2,1
+unknown,unknown,4,single male,4,none,1,1,0
+unknown,< 100 DM,4,married male,1,none,1,2,1
+unknown,101 - 500 DM,2,single male,4,none,2,1,1
+1 - 200 DM,< 100 DM,3,married male,3,none,3,2,0
+< 0 DM,< 100 DM,2,single male,1,none,2,1,1
+1 - 200 DM,501 - 1000 DM,3,female,4,none,1,1,1
+unknown,< 100 DM,4,female,2,none,2,1,1
+< 0 DM,< 100 DM,4,female,4,none,1,1,0
+< 0 DM,> 1000 DM,4,female,4,none,2,1,0
+> 200 DM,unknown,4,single male,4,stores,2,1,0
+1 - 200 DM,< 100 DM,2,single male,4,none,3,1,0
+< 0 DM,< 100 DM,3,single male,2,none,1,1,1
+1 - 200 DM,101 - 500 DM,4,single male,4,none,1,1,0
+unknown,< 100 DM,2,married male,2,none,2,1,0
+1 - 200 DM,< 100 DM,1,divorced male,4,none,2,1,0
+unknown,unknown,3,single male,2,none,1,1,0
+unknown,501 - 1000 DM,3,single male,2,bank,2,1,1
+1 - 200 DM,< 100 DM,3,married male,1,none,1,1,0
+1 - 200 DM,unknown,4,female,1,none,1,1,0
+1 - 200 DM,501 - 1000 DM,4,single male,2,none,2,1,1
+unknown,< 100 DM,4,female,2,bank,1,1,0
+unknown,unknown,2,married male,4,none,1,1,0
+< 0 DM,< 100 DM,1,single male,2,none,2,2,0
+1 - 200 DM,101 - 500 DM,4,single male,2,none,1,1,0
+unknown,< 100 DM,1,single male,4,none,1,2,0
+< 0 DM,< 100 DM,1,female,4,none,2,1,1
+< 0 DM,< 100 DM,4,single male,4,none,1,1,1
+unknown,< 100 DM,4,female,2,none,1,1,0
+> 200 DM,501 - 1000 DM,3,female,3,none,1,1,0
+1 - 200 DM,< 100 DM,2,female,3,none,1,1,0
+1 - 200 DM,unknown,4,single male,2,none,2,1,0
+unknown,< 100 DM,4,single male,4,none,2,2,1
+1 - 200 DM,101 - 500 DM,2,married male,2,none,1,1,1
+1 - 200 DM,< 100 DM,2,single male,2,none,1,1,1
+unknown,< 100 DM,3,single male,2,bank,1,1,1
+> 200 DM,101 - 500 DM,1,female,1,bank,1,1,0
+< 0 DM,< 100 DM,2,single male,2,none,1,2,1
+unknown,< 100 DM,2,single male,2,none,2,1,0
+< 0 DM,< 100 DM,4,female,3,none,2,1,0
+> 200 DM,< 100 DM,2,divorced male,1,none,2,1,0
+unknown,101 - 500 DM,2,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,2,none,1,1,0
+1 - 200 DM,< 100 DM,4,single male,2,none,2,1,0
+unknown,unknown,2,single male,1,none,2,2,0
+unknown,101 - 500 DM,4,single male,4,bank,1,2,0
+< 0 DM,unknown,2,married male,4,none,2,1,0
+< 0 DM,< 100 DM,4,single male,3,none,1,1,0
+unknown,unknown,4,single male,3,none,1,1,0
+unknown,< 100 DM,3,female,4,none,1,1,0
+< 0 DM,< 100 DM,4,divorced male,4,none,1,1,0
+unknown,< 100 DM,4,single male,4,none,1,1,0
+< 0 DM,< 100 DM,4,single male,4,none,1,1,1
+1 - 200 DM,101 - 500 DM,3,single male,4,none,1,1,0
