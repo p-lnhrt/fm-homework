@@ -35,8 +35,11 @@ the deserialized model file and metadata to the object that encapsulates the pre
 
 This is what we wanted to implement in local mode in this quick exercise. We acknowledge however that our local implementation
 does not make perfectly explicit the separation between the metadata database and the model warehouse. The metadata database is
-indeed based on the local directory in which the models are stored. It therefore only consists in the model id and location 
-which forced us to store other data (the ordered list of input features) in the business logic code (`credit_default.py`).   
+indeed based on the local directory (the `deployment/models` directory) in which the models are stored. It therefore only 
+consists in the model id and location which forced us to store other data (the ordered list of input features) in the business 
+logic code (`credit_default.py`).   
+
+Notice: The path to the local model warehouse is configurable using the `MODEL_WAREHOUSE` key in `config.py`.
 
 ## 2. Launching the application
 Assuming the project's Python virtual environment is activated, change your current working directory to the `deployment` 
@@ -57,7 +60,7 @@ The server now runs on your local host, port 5000 (Flask's defaults).
 ## 3. Using the application
 We will be using the cURL command to send request to our running web server. First, open a new terminal.
 
-### 3.1 Querying for available models
+### 3.1. Querying for available models
 To query the server for the available trained models, use the following command:
 
 ```bash
@@ -80,7 +83,7 @@ data to it. For example the example command above should return:
 }
 ```
 
-### 3.2 Getting the prediction for a single record
+### 3.2. Getting the prediction for a single record
 When sending a single record to a specific model, data must be JSON-formatted as in the example command below. The command
 should follow the following pattern:
 
@@ -109,7 +112,7 @@ the positive class (binary classification). As it seems we would like to be able
 responses, this requires to return a probability and not a label. We can also return both and let the client decides which 
 one matches its use case. 
 
-### 3.3 Getting the prediction for a batch of records
+### 3.3. Getting the prediction for a batch of records
 When sending a batch of record to a specific model, data must be JSON-formatted as in the example command below. The command
 should follow the following pattern:
 
