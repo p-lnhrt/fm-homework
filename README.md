@@ -143,6 +143,3 @@ All scripts would in our view greatly benefit from the following improvement:
 
 
 
-curl -i -X GET http://localhost:5000/models
-curl -i -H "Content-Type: application/json" -X POST --data '{"checking_balance":"unknown","savings_balance":"unknown","installment_rate":4,"personal_status":"single male","residence_history":1,"installment_plan":"none","existing_credits":1,"dependents":1}'  http://localhost:5000/output/CDEFAULT_RF_20200503120903
-curl -i -H "Content-Type: application/json" -X POST --data '{"data":[{"checking_balance":"unknown","savings_balance":"unknown","installment_rate":4,"personal_status":"single male","residence_history":1,"installment_plan":"none","existing_credits":1,"dependents":1},{"checking_balance":"< 0 DM","savings_balance":"< 100 DM","installment_rate":4,"personal_status":"single male","residence_history":2,"installment_plan":"stores","existing_credits":1,"dependents":2}]}'  http://localhost:5000/outputs/CDEFAULT_RF_20200503120903
