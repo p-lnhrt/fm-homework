@@ -2,7 +2,7 @@
 ##### Contact: pierre.lienhart[at]gmail.com
 
 # FairMoney Machine Learning Engineer homework
-This homework consist in two exercices named "trainind" and "deployment". Each exercise is associated with a dedicated 
+This homework consist in two exercises named "training" and "deployment". Each exercise is associated with a dedicated 
 directory and documentation (*README.md* file).
 
 ## 1. Requirements
