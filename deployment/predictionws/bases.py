@@ -7,6 +7,10 @@ class AbstractModelMetadataDatabase(abc.ABC):
     def list_models(self):
         pass
 
+    @abc.abstractmethod
+    def get_model_metadata(self, model_id):
+        pass
+
 
 class AbstractModelWarehouse(abc.ABC):
 

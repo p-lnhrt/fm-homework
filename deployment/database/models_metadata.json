@@ -1,0 +1,16 @@
+[{"id":"CDEFAULT_RF_20200503120903",
+  "format":"joblib",
+  "training_datetime":"2020-05-03 12:09:03",
+  "training_precision": 0.466,
+  "training_recall":0.829,
+  "training_f1":0.597,
+  "training_pr_auc":0.529,
+  "test_precision":0.430,
+  "test_recall":0.756,
+  "test_f1":0.548,
+  "test_pr_auc":0.475,
+  "training_data":"training-data-snapshot-location",
+  "test_data":"test-data-snapshot-location",
+  "training_script":"training-script-version-location",
+  "input_features":["residence_history","installment_rate","existing_credits","dependents","checking_balance", "savings_balance", "personal_status", "installment_plan"]}
+]

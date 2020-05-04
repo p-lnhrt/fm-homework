@@ -29,20 +29,15 @@ is distinct from the model warehouse where the serialized model files are physic
 Models can be related to a specific data pipeline the logic of which is encapsulated in a dedicated objects (in the present
 case: `credit_default.py`) which could reside in a separate package.
 
-Ideally, when a client sends data to the server (choosing a model at the same time), the application would query the 
-database for that model metadata, retrieve the model from the appropriate model warehouse and inject
-the deserialized model file and metadata to the object that encapsulates the prediction logic (assuming prediction requires
-model metadata).
+When a client sends data to the server (choosing a model at the same time), the application would query the  database 
+for that model metadata, retrieve the model from the appropriate model warehouse and inject the deserialized model file 
+and metadata to the object that encapsulates the prediction logic.
 
-This is what we wanted to implement in local mode in this quick exercise. We acknowledge however that our local implementation
-does not perfectly translate the concept explained in the above paragraph: prediction in our case does not require metadata 
-which is only used to list the available models. In addition to that, the local mode does not make perfectly explicit the 
-separation between the metadata database and the model warehouse. The metadata database is indeed based on the local 
-directory (the `deployment/models` directory) in which the models are stored. "Stored metadata" therefore only consists 
-in the model id and location which forced us to store other data (the ordered list of input features) in the business 
-logic code (`credit_default.py`).   
-
-Notice: The path to the local model warehouse is configurable using the `MODEL_WAREHOUSE` key in `config.py`.
+This homework implements this concept locally:
+* The model metadata database is simulated using a JSON file (one metadata dictionary per model) placed in 
+`deployment/database/models_metadata.json`. We provide the application with this path using the `MODEL_METADATA_DB` configuration.
+* The model warehouse is simulated using a local directory (`deployment/model_warehouse`). We provide the application 
+with this path using the `MODEL_WAREHOUSE` configuration.
 
 ## 2. Launching the application
 Assuming the project's Python virtual environment is activated, change your current working directory to the `deployment` 
@@ -106,6 +101,7 @@ field. For example the example command above should return:
 
 ```bash
 {
+  "model_id": "CDEFAULT_RF_20200503120903", 
   "probability": 0.19969359076633833
 }
 ```
@@ -139,6 +135,7 @@ command above should return:
 
 ```bash
 {
+  "model_id": "CDEFAULT_RF_20200503120903", 
   "predictions": [
     {
       "probability": 0.19969359076633833
@@ -162,6 +159,7 @@ From a code quality perspective we would suggest the following improvements:
 * Improve configuration management.
 
 From a functional perspective, we would suggest the following improvements:
+* Add support for other model formats (pickle, etc.)
 * Provide more information in the prediction response dictionaries (record ID, label and probability, model metadata) 
 * Improve the error handling behavior: make sure we always return a JSON structure, even in case of errors
 * Find a more convenient way to upload a batch of data (ex: direct file upload).

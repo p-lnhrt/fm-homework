@@ -23,7 +23,12 @@ def return_output(model_id):
 
     data = request.json
 
-    single_prediction, *_ = apply_model(model_id=model_id, data=pd.DataFrame(data=[data]))
+    model_file = get_model_file(model_id=model_id)
+    model_metadata = get_model_metadata(model_id=model_id)
+    predictor = predictionws.credit_default.Predictor(model_file=model_file, model_metadata=model_metadata)
+
+    single_prediction, *_ = predictor.predict(data=pd.DataFrame(data=[data]))
+    single_prediction.update({'model_id': model_metadata.id})
     return flask.jsonify(single_prediction)
 
 
@@ -34,20 +39,34 @@ def return_outputs(model_id):
 
     data = request.json['data']
 
-    predictions = apply_model(model_id=model_id, data=pd.DataFrame(data=data))
-    return flask.jsonify({'predictions': predictions})
+    model_file = get_model_file(model_id=model_id)
+    model_metadata = get_model_metadata(model_id=model_id)
+    predictor = predictionws.credit_default.Predictor(model_file=model_file, model_metadata=model_metadata)
+    predictions = predictor.predict(data=pd.DataFrame(data=data))
+
+    return flask.jsonify({'model_id': model_metadata.id, 'predictions': predictions})
 
 
-def apply_model(model_id, data):
+def get_model_file(model_id):
+    wh_client = wh.get_warehouse()
     try:
-        model_warehouse = wh.get_warehouse()
-        model_file = model_warehouse.get_model(model_id=model_id)
+        model_file = wh_client.get_model(model_id=model_id)
     except FileNotFoundError:
         # Queried model not found
         flask.abort(404)
 
-    predictor = predictionws.credit_default.Predictor(model_file=model_file)
-    return predictor.predict(data=data)
+    return model_file
+
+
+def get_model_metadata(model_id):
+    db_client = db.get_db()
+    try:
+        model_metadata = db_client.get_model_metadata(model_id=model_id)
+    except ValueError:
+        # Queried model metadata not found
+        flask.abort(404)
+
+    return model_metadata
 
 
 def make_public_model(model_id):

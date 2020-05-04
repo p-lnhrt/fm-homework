@@ -2,10 +2,9 @@ import predictionws.bases as bases
 
 
 class Predictor(bases.AbstractPredictor):
-    def __init__(self, model_file):
+    def __init__(self, model_file, model_metadata):
         self._model = model_file
-        self.input_features = ['residence_history', 'installment_rate', 'existing_credits', 'dependents',
-                               'checking_balance', 'savings_balance', 'personal_status', 'installment_plan']
+        self.input_features = model_metadata.input_features
 
     def predict(self, data):
         probabilities = self._model.predict_proba(data[self.input_features])
