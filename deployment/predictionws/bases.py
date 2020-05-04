@@ -1,15 +1,19 @@
 import abc
 
 
-class AbstractModelDataBase(abc.ABC):
-
-    @abc.abstractmethod
-    def query_for_path(self, model_id):
-        pass
+class AbstractModelMetadataDatabase(abc.ABC):
 
     @abc.abstractmethod
     def list_models(self):
         pass
+
+
+class AbstractModelWarehouse(abc.ABC):
+
+    @abc.abstractmethod
+    def get_model(self, model_id):
+        pass
+
 
 class AbstractPredictor(abc.ABC):
 

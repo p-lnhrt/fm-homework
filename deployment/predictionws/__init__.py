@@ -21,4 +21,7 @@ def create_app():
     import predictionws.db as db
     app.teardown_appcontext(db.teardown_db)
 
+    import predictionws.warehouse as wh
+    app.teardown_appcontext(wh.teardown_warehouse)
+
     return app

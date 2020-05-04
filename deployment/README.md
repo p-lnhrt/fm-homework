@@ -17,26 +17,29 @@ package gathers the application's code which consists in the following modules:
 * `config.py`: Contains the application's configuration.
 * `credit_default.py`: Gathers all the business logic related to a given data pipeline. In the present case: the credit 
 default modelling problem. 
-* `db.py`: Gathers all the code related to the database used by the web service.
-* `exceptions.py`: Gathers custom exceptions.
-* `utils.py`: Gathers utility functions.
+* `db.py`: Gathers all the code related to the model metadata database used by the web service.
 * `views.py`: Gathers the application's view functions.
+* `warehouse.py`: Gathers all the code related to the model warehouse used by the web service.
 
 To sum it up we have two major blocs of logic that interact using an interface: the web application (`__init__.py`, 
-`db.py`, `views.py`) and model-specific business logic (`credit_default.py`).
+`db.py`, `views.py` and `warehouse.py`) and model-specific business logic (`credit_default.py`).
 
 From a design perspective, the application's database contains the metadata for all the available trained models. This database
 is distinct from the model warehouse where the serialized model files are physically stored and from where they are imported.
-Model-specific logic is encapsulated in a dedicated objects which could reside in a separate package.
+Models can be related to a specific data pipeline the logic of which is encapsulated in a dedicated objects (in the present
+case: `credit_default.py`) which could reside in a separate package.
 
 Ideally, when a client sends data to the server (choosing a model at the same time), the application would query the 
-database for the model storage location and metadata, retrieve the model from the appropriate model warehouse and inject
-the deserialized model file and metadata to the object that encapsulates the prediction logic.
+database for that model metadata, retrieve the model from the appropriate model warehouse and inject
+the deserialized model file and metadata to the object that encapsulates the prediction logic (assuming prediction requires
+model metadata).
 
 This is what we wanted to implement in local mode in this quick exercise. We acknowledge however that our local implementation
-does not make perfectly explicit the separation between the metadata database and the model warehouse. The metadata database is
-indeed based on the local directory (the `deployment/models` directory) in which the models are stored. It therefore only 
-consists in the model id and location which forced us to store other data (the ordered list of input features) in the business 
+does not perfectly translate the concept explained in the above paragraph: prediction in our case does not require metadata 
+which is only used to list the available models. In addition to that, the local mode does not make perfectly explicit the 
+separation between the metadata database and the model warehouse. The metadata database is indeed based on the local 
+directory (the `deployment/models` directory) in which the models are stored. "Stored metadata" therefore only consists 
+in the model id and location which forced us to store other data (the ordered list of input features) in the business 
 logic code (`credit_default.py`).   
 
 Notice: The path to the local model warehouse is configurable using the `MODEL_WAREHOUSE` key in `config.py`.

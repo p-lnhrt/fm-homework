@@ -4,8 +4,7 @@ import pandas as pd
 
 import predictionws.credit_default
 import predictionws.db as db
-import predictionws.exceptions as exceptions
-import predictionws.utils as utils
+import predictionws.warehouse as wh
 
 model_bp = flask.Blueprint(name='model', import_name=__name__)
 prediction_bp = flask.Blueprint(name='prediction', import_name=__name__)
@@ -41,8 +40,9 @@ def return_outputs(model_id):
 
 def apply_model(model_id, data):
     try:
-        model_file = utils.build_model_from_id(db_client=db.get_db(), model_id=model_id)
-    except exceptions.ModelNotFoundException:
+        model_warehouse = wh.get_warehouse()
+        model_file = model_warehouse.get_model(model_id=model_id)
+    except FileNotFoundError:
         # Queried model not found
         flask.abort(404)
 
