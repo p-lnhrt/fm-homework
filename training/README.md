@@ -4,6 +4,13 @@
 # FairMoney Machine Learning Engineer Homework - Training exercise 
 This exercice is divided into three parts each with a corresponding Python script. 
 
+Assuming the project's Python virtual environment is activated, change your current working directory to the `training` 
+directory:
+
+```bash
+cd training
+```
+
 ## 1. Input data set split
 Splitting an input data set into a train and test set in carried out using the `split_data.py` Python script which can be
 launched using the following command:
@@ -98,9 +105,8 @@ Possible improvements to training report generation would include:
 format (PDF, HTML, etc.).
 * We currently provide single-point estimation on performance metrics. Computing their respective standard deviations would
 be a must-have but requires a cross-validation procedure.  
-* The current choice of metrics depends on our problem.
+* The current choice of metrics depends on our problem.python generate_report.py --train-file=./data/train.csv --test-file=./data/test.csv --model=./models/CDEFAULT_RF_20200503120903.joblib --output-dir=./reports
 * Refactoring of the report generation and export into a dedicated object. 
-curl -i -H "Content-Type: application/json" -X POST --data '{"checking_balance":"unknown","savings_balance":"unknown","installment_rate":4,"personal_status":"single male","residence_history":1,"installment_plan":"none","existing_credits":1,"dependents":1}' http://localhost:5000/inference/AA1
 
 ## 4. Common possible improvements 
 All scripts would in our view greatly benefit from the following improvement:
