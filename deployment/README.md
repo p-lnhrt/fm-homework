@@ -15,19 +15,13 @@ package gathers the application's code which consists in the following modules:
 `flask run` (see Launching the application below).
 * `bases.py`: Gathers the different abstract base classes which explicit the interfaces used by the application. 
 * `config.py`: Contains the application's configuration.
-* `credit_default.py`: Gathers all the business logic related to a given data pipeline. In the present case: the credit 
-default modelling problem. 
+* `predictor.py`: Gathers all the code related to producing a prediction. 
 * `db.py`: Gathers all the code related to the model metadata database used by the web service.
 * `views.py`: Gathers the application's view functions.
 * `warehouse.py`: Gathers all the code related to the model warehouse used by the web service.
 
-To sum it up we have two major blocs of logic that interact using an interface: the web application (`__init__.py`, 
-`db.py`, `views.py` and `warehouse.py`) and model-specific business logic (`credit_default.py`).
-
 From a design perspective, the application's database contains the metadata for all the available trained models. This database
 is distinct from the model warehouse where the serialized model files are physically stored and from where they are imported.
-Models can be related to a specific data pipeline the logic of which is encapsulated in a dedicated objects (in the present
-case: `credit_default.py`) which could reside in a separate package.
 
 When a client sends data to the server (choosing a model at the same time), the application would query the  database 
 for that model metadata, retrieve the model from the appropriate model warehouse and inject the deserialized model file 

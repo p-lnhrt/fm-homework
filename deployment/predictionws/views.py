@@ -2,7 +2,7 @@ import flask
 from flask import request as request
 import pandas as pd
 
-import predictionws.credit_default
+import predictionws.predictor
 import predictionws.db as db
 import predictionws.warehouse as wh
 
@@ -25,7 +25,7 @@ def return_output(model_id):
 
     model_file = get_model_file(model_id=model_id)
     model_metadata = get_model_metadata(model_id=model_id)
-    predictor = predictionws.credit_default.Predictor(model_file=model_file, model_metadata=model_metadata)
+    predictor = predictionws.predictor.Predictor(model_file=model_file, model_metadata=model_metadata)
 
     single_prediction, *_ = predictor.predict(data=pd.DataFrame(data=[data]))
     single_prediction.update({'model_id': model_metadata.id})
@@ -41,7 +41,7 @@ def return_outputs(model_id):
 
     model_file = get_model_file(model_id=model_id)
     model_metadata = get_model_metadata(model_id=model_id)
-    predictor = predictionws.credit_default.Predictor(model_file=model_file, model_metadata=model_metadata)
+    predictor = predictionws.predictor.Predictor(model_file=model_file, model_metadata=model_metadata)
     predictions = predictor.predict(data=pd.DataFrame(data=data))
 
     return flask.jsonify({'model_id': model_metadata.id, 'predictions': predictions})
