@@ -112,5 +112,7 @@ All scripts would in our view greatly benefit from the following improvement:
 * Addition of a *CHANGELOG.md* file (depends on the versioning policy),
 * Addition of a complexity analysis where relevant.
 
+Overall much of what has been developed in this application (web service included) is made available to any ML project by 
+(fairly new) tools such as [MLflow](https://mlflow.org/docs/latest/index.html).
 
 

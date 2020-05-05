@@ -151,6 +151,7 @@ From a code quality perspective we would suggest the following improvements:
 * Enhance code documentation by adding docstrings, type hints, complexity analysis where relevant, etc.
 * Add a *CHANGELOG.md* file (depends on the versioning policy),
 * Improve configuration management.
+* Ease deployment by packaging the application within a Docker container
 
 From a functional perspective, we would suggest the following improvements:
 * Add support for other model formats (pickle, etc.)
