@@ -1,7 +1,6 @@
 import json
 
 import flask
-import pandas as pd
 
 import predictionws.bases as bases
 
