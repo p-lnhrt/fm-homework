@@ -34,20 +34,30 @@ This homework implements this concept locally:
 with this path using the `MODEL_WAREHOUSE` configuration.
 
 ## 2. Launching the application
-Assuming the project's Python virtual environment is activated, change your current working directory to the `deployment` 
-directory:
+The application is deployed as a Docker container which embeds all the required Python dependencies specified in the 
+exercise's *requirement.txt* file.  
+
+Change your current working directory to the `deployment` directory:
 
 ```bash
 cd deployment
 ```
 
-You can simply launch the web server using the `launch_web_service.sh` script using the following command:
+Build the exercise's Docker image:
 
 ```bash
-bash launch_web_service.sh
+docker build -t fmhomework:latest .
 ```
 
-The server now runs on your local host, port 5000 (Flask's defaults).
+Launch the container using the Docker image you just built with the following command:
+
+```bash
+docker run --init -d -p 5000:5000 fmhomework:latest
+```
+
+The web server now runs from within the Docker container, is bound to its port 5000 and is opened to no-local 
+connections (host set to 0.0.0.0). The container's 5000 port has been published to the host's (your local machine) port 
+5000.
 
 ## 3. Using the application
 We will be using the cURL command to send request to our running web server. First, open a new terminal.
@@ -151,7 +161,6 @@ From a code quality perspective we would suggest the following improvements:
 * Enhance code documentation by adding docstrings, type hints, complexity analysis where relevant, etc.
 * Add a *CHANGELOG.md* file (depends on the versioning policy),
 * Improve configuration management.
-* Ease deployment by packaging the application within a Docker container
 
 From a functional perspective, we would suggest the following improvements:
 * Add support for other model formats (pickle, etc.)

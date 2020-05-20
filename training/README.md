@@ -4,14 +4,37 @@
 # FairMoney Machine Learning Engineer Homework - Training exercise 
 This exercice is divided into three parts each with a corresponding Python script. 
 
-Assuming the project's Python virtual environment is activated, change your current working directory to the `training` 
+## 1. Execution environment
+To ensure our project runs using the appropriate dependencies, we first create and activate a dedicated Python (virtual)
+execution environment using the exercise's *requirements.txt* file. Change your current working directory to the `training` 
 directory:
 
 ```bash
 cd training
 ```
 
-## 1. Input data set split
+Now create the Python virtual environment using the following command:
+
+```bash
+conda create -y -c conda-forge -n py36-fm --file requirements.txt
+```
+
+Activate the environment using:
+
+```bash
+conda activate py36-fm
+```
+
+If the above command requires extra `conda` configurations, you can still use:
+
+```bash
+source activate /opt/anaconda/envs/py36-fm
+```
+
+Starting from this moment, **we always assume that the current Python execution environment is the project's dedicated
+virtual environment**.
+
+## 2. Input data set split
 Splitting an input data set into a train and test set in carried out using the `split_data.py` Python script which can be
 launched using the following command:
 
@@ -19,10 +42,10 @@ launched using the following command:
 python split_data.py --data ./input/credit.csv --output-dir ./data --test-ratio 0.3 
 ```
 
-### 1.1. Implementation notes
+### 2.1. Implementation notes
 We choose a stratified split to ensure that the minority class proportion remains the same after the split. 
 
-## 2. Model training
+## 3. Model training
 Model training can be carried out using the `train_model.py` Python script which can be launched using the following 
 command:
 
@@ -30,8 +53,8 @@ command:
 python train_model.py --data ./data/train.csv --output-dir ./models
 ```
 
-### 2.1. Implementation notes
-#### 2.1.1. Modelling
+### 3.1. Implementation notes
+#### 3.1.1. Modelling
 The input dataset consists in 4 categorical variables and 4 numerical variables and 1 target variable.
 
 Two categorical variables (`checking_balance` and `savings_balance`) include missing values (labelled `unknown`). These 
@@ -63,7 +86,7 @@ would include:
 * Experimenting with other model specifications
 * Experimenting with model selection metrics that give different weights to true and false positives.
 
-#### 2.1.2. Hyperparameter tuning
+#### 3.1.2. Hyperparameter tuning
 Model training has been understood as not including the hyperparameter tuning (and as not required, the code related to 
 the hyperparameter tuning of our model has not been included). In a perspective of frequent and automatic re-trainings, 
 hyperparameter tuning is indeed not included in trainings for two main reasons:
@@ -71,10 +94,10 @@ hyperparameter tuning is indeed not included in trainings for two main reasons:
 * Hyperparameter tuning is part of the model specification which should not change with each training. Furthermore,
  as model specification may require the intervention of the data scientist, we may not want to automate it. 
 
-#### 2.1.3. Model serialization
+#### 3.1.3. Model serialization
 Trained model are serialized in the joblib format and exported to the local file system.
 
-### 2.2. Possible improvements (excluding modelling)
+### 3.2. Possible improvements (excluding modelling)
 We can make suggestions of improvement for this script:
 * The model specification is currently hard-coded into the script. We could leverage the fact that this specification 
 is included in the model file. Re-training a model could therefore be done by simply using the latest model.
@@ -83,7 +106,7 @@ model as metadata.
 * We could provide support other model serialization formats (pickle, HDF5, etc.) and model repositories. This would 
 imply to increase the code's modularity.
 
-## 3. Training report generation 
+## 4. Training report generation 
 A short model training report can be generated using the `generate_report.py` Python script which can be launched using 
 the following command:
 
@@ -91,7 +114,7 @@ the following command:
 python generate_report.py --train-file=./data/train.csv --test-file=./data/test.csv --model=./models/CDEFAULT_RF_20200503120903.joblib --output-dir=./reports
 ```
 
-### 3.1. Implementation notes
+### 4.1. Implementation notes
 This script generated report as a simple text (.txt) file.
 
 As our classification problem is imbalanced:
@@ -99,7 +122,7 @@ As our classification problem is imbalanced:
 * We chose not to use the ROC curve and the associated area-under-curve (AUC) but preferred the Precision/Recall (PR) 
 curve and its AUC.
 
-### 3.2. Possible improvements
+### 4.2. Possible improvements
 Possible improvements to training report generation would include:   
 * Including curves or more generally plots which would in turn require the report to be generated in another appropriate 
 format (PDF, HTML, etc.).
@@ -108,7 +131,7 @@ be a must-have but requires a cross-validation procedure.
 * The current choice of metrics depends on our problem.python generate_report.py --train-file=./data/train.csv --test-file=./data/test.csv --model=./models/CDEFAULT_RF_20200503120903.joblib --output-dir=./reports
 * Refactoring of the report generation and export into a dedicated object. 
 
-## 4. Common possible improvements 
+## 5. Common possible improvements 
 All scripts would in our view greatly benefit from the following improvement:
 * Addition of CLI argument validation,
 * Addition of data validation,
@@ -120,5 +143,3 @@ All scripts would in our view greatly benefit from the following improvement:
 
 Overall much of what has been developed in this application (web service included) is made available to any ML project by 
 (fairly new) tools such as [MLflow](https://mlflow.org/docs/latest/index.html).
-
-
